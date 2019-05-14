@@ -175,6 +175,10 @@ img {
     margin-top: 150px;
 }
 
+.mr-10 {
+    margin-right: 10px;
+}
+
 .mr-15 {
     margin-right: 15px;
 }
@@ -626,7 +630,7 @@ img {
 .features-img > img {
     width: 40%;
     position: absolute;
-    bottom: -30px;
+    bottom: 50px;
     left: 30px;
     z-index: 9;
 }
@@ -1360,7 +1364,7 @@ span.accor-open {
     position: absolute;
     width: 33.33333%;
     text-align: center;
-    content: "Previous";
+    
     top: 0;
     left: 0;
     z-index: -5;
@@ -1372,7 +1376,7 @@ span.accor-open {
     position: absolute;
     width: 33.33333%;
     text-align: center;
-    content: "Next";
+   
     top: 0;
     right: 0;
     z-index: -5;
@@ -1774,4 +1778,16 @@ float: right;
 
 .mb-35 {
     margin-bottom: 35px;
+}
+
+.contact-data {
+    color: #abadbe;
+    font-weight: 500;
+}
+
+.text-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
 }
